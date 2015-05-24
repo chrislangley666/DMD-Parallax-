@@ -10,8 +10,9 @@
 }
 
 .container {
+    position: absolute;
     max-width: 100%;
-    margin: 0px auto; <!-- margin top and bottom 0px, auto left and right -->
+    margin: 0 auto;
 }
 
 .overlay-black {
