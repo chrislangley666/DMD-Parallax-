@@ -1,0 +1,33 @@
+.parallax-window {
+    width: 100%;
+    margin: 0 auto;
+    height: 1500px;
+}
+
+.overlay {
+    min-height: 500px;  
+    padding: 50px;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0px auto; <!-- margin top and bottom 0px, auto left and right -->
+}
+
+.overlay-black {
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+}
+
+.overlay-white {
+    background: rgba(255, 255, 255, 0.5);  
+    color: #000;
+}
+
+clearfix {
+    clear: both;
+}
+
+.image-width {
+    width: 100%;     
+}
