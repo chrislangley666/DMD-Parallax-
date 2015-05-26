@@ -29,6 +29,11 @@ clearfix {
     clear: both;
 }
 
+
 .image-width {
     width: 100%;     
+}
+
+#tin{
+    margin-left: 50%;
 }
