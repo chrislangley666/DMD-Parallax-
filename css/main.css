@@ -44,6 +44,12 @@ clearfix {
 #text{
     position: relative;
     margin-left: 62%;
-    z-index: 3;
+    z-index: 0;
     top: 70px;
+}
+.face{
+    z-index: 1;
+}
+#chat{
+    z-index:2;
 }
