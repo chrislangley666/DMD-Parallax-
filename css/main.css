@@ -53,3 +53,33 @@ clearfix {
 #chat{
     z-index:2;
 }
+
+
+/*ATTEMPT */
+.circle {
+    border: 1px solid #363636;
+    border-radius: 200px;
+    background: #dfdfdf;
+    float: left;
+    margin: 10px;
+    height: 200px;
+    width: 200px;  
+    transition: all 1s;
+}
+
+.circle:hover {
+    opacity: 0.5;   
+}
+
+
+.clearfix { /* Makes box go underneath when declared in div? */
+ clear: both;   
+    
+}
+
+
+/* How it looks when selected */
+.selected { 
+   background-image: url(../images/chicken.jpg);
+   background-size: cover;
+}
