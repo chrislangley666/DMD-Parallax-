@@ -33,7 +33,16 @@ clearfix {
 .image-width {
     width: 100%;     
 }
-
 #tin{
+    position: relative;
     margin-left: 50%;
+    z-index: 1;
+    top: -1009px;
+}
+
+#text{
+    position: relative;
+    margin-left: 62%;
+    z-index: 3;
+    top: 70px;
 }
