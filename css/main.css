@@ -18,19 +18,22 @@
 
 
 .circlecontainer {
-    margin-left: 27%;
+    width: 1000px;
+	margin: 0px auto;
     
 }
 
-.datecircle {
-    border: 5px solid #6c6a6a;
-    border-radius: 200px;
+.image-width {
+	width: 100%;
+}
+
+.selected { /*Class toggled on and off --> */
     background: white;
-    float: left;
-    margin: 10px;
-    height: 200px;
-    width: 200px;  
-    z-index: 2;
+    border: 2px solid black;
+}
+
+#mainImage {
+    border: 1px solid black;    
 }
 
 .circle {
@@ -41,7 +44,7 @@
     margin: 10px;
     height: 200px;
     width: 200px;  
-    transition: all 4s;
+    transition: all 1s;
 }
 
 .circle:hover {
