@@ -15,6 +15,39 @@
     max-width: 100%;
     margin: 0 auto;
 }
+
+
+.circlecontainer {
+    margin-left: 27%;
+    
+}
+
+.datecircle {
+    border: 5px solid #6c6a6a;
+    border-radius: 200px;
+    background: white;
+    float: left;
+    margin: 10px;
+    height: 200px;
+    width: 200px;  
+    z-index: 2;
+}
+
+.circle {
+    border: 5px solid #6c6a6a;
+    border-radius: 200px;
+    background: black;
+    float: left;
+    margin: 10px;
+    height: 200px;
+    width: 200px;  
+    transition: all 4s;
+}
+
+.circle:hover {
+    opacity: 0.1;   
+}
+
  /* TITLE ANIMATION*/
 
 body {
@@ -154,20 +187,6 @@ clearfix {
 
 
 /*ATTEMPT */
-.circle {
-    border: 1px solid #363636;
-    border-radius: 200px;
-    background: #dfdfdf;
-    float: left;
-    margin: 10px;
-    height: 200px;
-    width: 200px;  
-    transition: all 1s;
-}
-
-.circle:hover {
-    opacity: 0.5;   
-}
 
 
 .clearfix { /* Makes box go underneath when declared in div? */
