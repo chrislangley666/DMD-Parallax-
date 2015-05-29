@@ -48,23 +48,31 @@
                 <img id="chat" src="images/faceboookhead.png">
             </div>
         </div>  
-          <!--Break 4-->
-        <div class="parallax-window" data-parallax="scroll" data-image-src="images/panelbackgrounds/panel7.png" data-speed="1">
-        </div> 
-     
+
          <!--Panel 6 Select dates-->
-         <div class="parallax-window" data-parallax="scroll" data-image-src="images/panelbackgrounds/panel8.png" data-speed="1">
-            <div class="circle"></div>
-            <div class="circle"></div>
-        
-            <div class="clearfix"></div>
-        
-            <div class="circle"></div>
-            <div class="circle"></div>
-        
-            <img  id="mainimage" class="selected" src="images/chicken.jpg">
-             
-        </div>
+             <div class="parallax-window" data-parallax="scroll" data-image-src="images/panelbackgrounds/panel7.png" data-speed="2">
+                <div id="titlecontainer" class="titlecontainer">
+                    <ul id="scene" class="scene">
+                        <li class="layer" data-depth="0.50"><img src="images/title/title5.png"></li>
+                        <li class="layer" data-depth="0.40"><img src="images/title/title4.png"></li>
+                        <li class="layer" data-depth="0.30"><img src="images/title/title3.png"></li>
+                        <li class="layer" data-depth="0.20"><img src="images/title/title2.png"></li>
+                        <li class="layer" data-depth="0.10"><img src="images/title/title1.png"></li>
+                        <li class="layer" data-depth="0.00"><img src="images/title/title0.png"></li>
+                    </ul>
+                </div>
+            </div>
+
+        <!-- Scripts -->
+        <script src="scripts/parallax2.js"></script>
+        <script>
+
+        // Pretty simple huh?
+        var scene = document.getElementById('scene');
+        var parallax = new Parallax(scene);
+
+        </script>
+
         
            <!--Panel 8 Radio-->
          <div class="parallax-window" data-parallax="scroll" data-image-src="images/radio.png" data-speed="0">
@@ -83,10 +91,12 @@
             </div>
         </div>
     
-        <script src="scripts/jquery-1.9.1.min.js"></script>
-        <script src="scripts/parallax.js"></script>
+
       <!--  <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js"></script>
         <script src="scripts/jquery.superscrollorama.js"></script>-->
+        <script src="scripts/jquery-1.9.1.min.js"></script>
+        <script src="scripts/parallax.js"></script>
         <script src="scripts/scripts.js"></script>
+
     </body>
 </html>

@@ -18,16 +18,3 @@ $(document).ready(function() {
 
     });
 });
-    
-// For dates
-
-   $("circle").click(function() { //Grab the boxes and when clicked, run the function.
-        console.log("ready");
-        $(this).toggleClass("selected"); //'this' refers to what the user has interacted with. You can reference anthing. more than one.
-                              
-    });
-    
-
-
-
-
