@@ -15,15 +15,42 @@
     margin: 0 auto;
 }
 
-
-.circlecontainer {
-    width: 1000px;
-	margin: 0px auto;
+.calandercontainer {
+   width: 63%;
+   height: 40%;
+   margin-left: 11.6%;
+   margin-top: 12%;
     
 }
 
+.circlecontainer1 {
+    margin-left: 17%;
+    margin-top: 24.6%;
+    width: 12%;
+    height: 15%;  
+}
+
+
+
+.circlecontainer2 {
+    margin-left: 84.5%;
+    margin-top: 6.3%;
+    width: 12%;
+    height: 23%;  
+}
+
+.circlecontainer3 {
+    margin-left: 22.2%;
+    margin-top: 35.5%;
+    width: 8%;
+    height: 12%;  
+}
+
 .image-width {
-	width: 100%;
+   margin-left: 20%;
+   padding-top: 8%;
+   width: 60%;   
+   height: 100%;
 }
 
 .selected { /*Class toggled on and off --> */
@@ -32,23 +59,25 @@
 }
 
 #mainImage {
-    border: 1px solid black;    
+   margin-left: 20%;
+   margin-top: 55%;
+   width: 60%;   
+   height: 66%;
 }
 
 .circle {
-    border: 5px solid #6c6a6a;
     border-radius: 200px;
-    background: black;
     float: left;
     margin: 10px;
-    height: 200px;
-    width: 200px;  
+    height: 120px;
+    width: 120px;  
     transition: all 1s;
 }
 
 .circle:hover {
     opacity: 0.1;   
 }
+
 
  /* TITLE ANIMATION*/
 
@@ -198,6 +227,10 @@ clearfix {
 
 /* How it looks when selected */
 .selected { 
-   background-image: url(../images/chicken.jpg);
-   background-size: cover;
+   background: none;
+   opacity: 0;
 }
+
+
+
+

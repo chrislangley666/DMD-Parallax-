@@ -8,7 +8,7 @@ $( document ).ready(function() {
     });
 
     function removeSelectedClass() {
-        $(".circle").removeClass("selected");  //Selected class is removed on all boxes when one is selected.
+        $(".circle").removeClass(".selected");  //Selected class is removed on all boxes when one is selected.
     }
  
 });

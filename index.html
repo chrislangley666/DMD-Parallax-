@@ -9,10 +9,7 @@
         
         <!--Panel 1 Love Quote-->
         <div class="parallax-window" data-parallax="scroll" data-image-src="images/panelbackgrounds/panel1.png" data-speed="0.1">
-         
-              
             <div id="titlecontainer" class="titlecontainer">
-                 
                     <ul id="scene" class="scene">
                         <li class="layer" data-depth="0.50"><img src="images/panel1_title/title0.png"></li>
                         <li class="layer" data-depth="0.40"><img src="images/panel1_title/title1.png"></li>
@@ -22,9 +19,16 @@
                         <li class="layer" data-depth="0.00"><img src="images/panel1_title/title5.png"></li>
                     </ul>
                  <img src="images/hearts.png"> 
-                </div>
-            
+            </div>
         </div>
+        
+            <!-- Scripts -->
+        <script src="scripts/parallax2.js"></script>
+        <script>
+        var scene = document.getElementById('scene');
+        var parallax = new Parallax(scene);
+        </script>
+        
         <!--Break 1-->
         <div class="parallax-window" data-parallax="scroll" data-image-src="images/panelbackgrounds/panel2.png" data-speed="-1">
             <div class="container">
@@ -58,27 +62,24 @@
         </div>  
 
          <!--Panel 6 Select dates-->
-             <div class="parallax-window" data-parallax="scroll" data-image-src="images/calendar.png" data-speed="0">
-                 <div class="circlecontainer">
-                    <img class="circle" src="images/ipad.png">
-                    <img class="circle" src="images/happilyeverafter.png">
-                    <img class="circle" src="images/radio1.png">
-                    <img class="circle" src="images/pinboard.png">
-                    <img id="mainImage" class="image-width "src="images/bedroom.png">
-                </div>
-             </div>
-        
-   
+             <div class="parallax-window" data-parallax="scroll" data-image-src="images/calendar.png" data-speed="1">
+                 <div class="calandercontainer">
+                    <img id="mainImage" class="image-width" src="images/canalderimage.png">
+                 
+                     <div class="circlecontainer1">
+                        <img class="circle src" src="images/canalderimagedate1.png">
+                     </div>
+                            <div class="circlecontainer2">
+                                <img class="circle" src="images/canalderimagedate3.png">
+                            </div>
+                             </div >
+                                <div class="circlecontainer3">
+                                    <img class="circle" src="images/canalderimagedate4.png">
+                                </div>
+                     </div> 
+                                
+
             
-     
-
-        <!-- Scripts -->
-        <script src="scripts/parallax2.js"></script>
-        <script>
-        var scene = document.getElementById('scene');
-        var parallax = new Parallax(scene);
-        </script>
-
         
            <!--Panel 8 Radio-->
          <div class="parallax-window" data-parallax="scroll" data-image-src="images/radio.png" data-speed="1">
