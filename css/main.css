@@ -231,6 +231,8 @@ clearfix {
    opacity: 0;
 }
 
-
-
+.video-position {
+    padding-left: 22%;
+    padding-top: 600px;
+}
 
