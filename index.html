@@ -94,8 +94,8 @@
         
         <!--Panel 10: Close Up on Video Camera-->
         <div class="parallax-window" data-parallax="scroll" data-image-src="images/panelbackgrounds/panel_10.png" data-speed="-0.5">
-            <div>
-                <img src="images/panelbackgrounds/stellas_recordings.png">
+            <div class="container">
+                <img id="recording" src="images/panelbackgrounds/stellas_recordings.png">
             </div>   
         
         </div>
@@ -112,7 +112,12 @@
            
         <!--Panel 12: Close Up on Radio-->
          <div class="parallax-window" data-parallax="scroll" data-image-src="images/panelbackgrounds/panel_12.png" data-speed="1">
-        </div>
+            <div class="audiocontainer"> 
+                <audio id="theAudio" controls>
+                    <source src="audio/radio.mp3.mp3" type="audio/mp3">
+                </audio> 
+            </div>
+         </div>
         
          <!--Panel 13: -->
          <div class="parallax-window" data-parallax="scroll" data-image-src="images/panelbackgrounds/panel_13.png" data-speed="-1">
@@ -136,7 +141,7 @@
         <script src="scripts/reveal.js"></script>
         <script src="scripts/youtube.js"></script>
         <script src="scripts/showkiss.js"></script>
-        <script src="scripts/hidekiss.js"></script>
+        <script src="scripts/audio.js"></script>
         
     </body>
 </html>

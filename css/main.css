@@ -78,7 +78,11 @@
     opacity: 0.0;   
 }
 
-
+.audiocontainer {
+    padding-left: 941px;
+    padding-top: 760px;
+    
+}
  /* TITLE ANIMATION*/
 
 body {
