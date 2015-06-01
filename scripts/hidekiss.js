@@ -4,11 +4,11 @@ $(document).ready(function() {
         var scrollPosition = $("body").scrollTop();
         console.log(scrollPosition); 
        
-        if(scrollPosition < 4850) {
-            $("#theVideo").hide();
+        if(scrollPosition < 16256) {
+            $("#kiss").hide();
         } else {
-           (scrollPosition)
-           $("#theVideo").fadeIn();
+           (scrollPosition > 16257)
+           $("#kiss").fadeIn();
         } 
         
     });
