@@ -205,6 +205,28 @@ clearfix {
 }
 
 
+<<<<<<< HEAD
+=======
+.image-width {
+    width: 100%;     
+}
+
+.page{
+    height: 350px;
+    margin-top: 1010px;
+    margin-left: 67px;
+}
+
+.click{
+    position: relative;
+    height: 80px;
+    width:  400px;
+    background-color: none;
+    z-index: 4;
+    margin-top: 1287px;
+    margin-left: 62px;
+}
+>>>>>>> origin/master
 
 #tin{
     position: relative;
