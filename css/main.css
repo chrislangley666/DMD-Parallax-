@@ -266,7 +266,13 @@ clearfix {
 
 .video-position {
     position: relative;
-    margin-left: 23%;
-    padding-top: 35%;
+    margin-left: 310px;
+    margin-top: 440px;
 }
 
+#themainVideo {
+    position: relative;
+    margin-left: 26px;
+    margin-top: 164px;
+    
+}
