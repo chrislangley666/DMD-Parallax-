@@ -94,11 +94,18 @@
         
         <!--Panel 10: Close Up on Video Camera-->
         <div class="parallax-window" data-parallax="scroll" data-image-src="images/panelbackgrounds/panel_10.png" data-speed="-0.5">
-            <div class="container">
+            <div class="speechcontainer">
                 <img id="recording" src="images/panelbackgrounds/stellas_recordings.png">
-            </div>   
+            </div>
+            
+            <div class="video-position2">
+                <video id="themainVideo" width="100%" height="525" controls>
+                    <source src="video/OFFICIAL%20TRAILER.mp4" type="video/mp4">
+                </video> 
+            </div>
+        </div>      
         
-        </div>
+        
         
         <div  class="parallax-window" data-parallax="scroll" data-image-src="images/panelbackgrounds/stellalove.png" data-speed="-2">
             <div class="container">
@@ -144,6 +151,7 @@
         <script src="scripts/reveal.js"></script>
         <script src="scripts/youtube.js"></script>
         <script src="scripts/showkiss.js"></script>
+        <script src="scripts/hidekiss.js"></script>
         <script src="scripts/audio.js"></script>
         
     </body>
