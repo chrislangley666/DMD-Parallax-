@@ -14,7 +14,7 @@
             audioElement.Play();
         });
 
-        $('.Stop().').click(function() {
-            audioElement.Stop().;
+        $('.Stop').click(function() {
+            audioElement.Stop();
         });
     });

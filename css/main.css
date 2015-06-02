@@ -205,28 +205,28 @@ clearfix {
 }
 
 
-<<<<<<< HEAD
-=======
+
+
 .image-width {
     width: 100%;     
 }
 
 .page{
-    height: 350px;
-    margin-top: 1010px;
-    margin-left: 67px;
+    position: relative;
+    width: 25%;
+    margin-top: -200px;
+    margin-left: 318px;
+    z-index: 4;
 }
 
 .click{
     position: relative;
-    height: 80px;
-    width:  400px;
+    height: 78px;
+    width:  374px;
     background-color: none;
-    z-index: 4;
-    margin-top: 1287px;
-    margin-left: 62px;
+    margin-top: -15px;
+    margin-left: 314px;
 }
->>>>>>> origin/master
 
 #tin{
     position: relative;
@@ -265,7 +265,8 @@ clearfix {
 }
 
 .video-position {
-    padding-left: 22%;
-    padding-top: 600px;
+    position: relative;
+    margin-left: 310px;
+    margin-top: 440px;
 }
 
