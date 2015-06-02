@@ -4,10 +4,10 @@ $(document).ready(function() {
         var scrollPosition = $("body").scrollTop();
         console.log(scrollPosition); 
        
-        if(scrollPosition < 14287) {
+        if(scrollPosition < 13687) {
             $("#themainVideo").hide();
         } else {
-           (scrollPosition > 14288)
+           (scrollPosition > 13688)
            $("#themainVideo").fadeIn();
         } 
         
