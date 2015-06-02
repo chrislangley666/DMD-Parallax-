@@ -36,23 +36,23 @@
 }
 
 .circlecontainer1 {
-    margin-left: 470px;
-    margin-top: 254px;
+    margin-left: 16.2%;
+    margin-top: 23.1%;
     width: 12%;
     height: 12%;  
 }
 
 
 .circlecontainer2 {
-    margin-left: 1281px;
-    margin-top: 94px;
+    margin-left: 80.8%;
+    margin-top: 6.1%;
     width: 12%;
     height: 23%;  
 }
 
 .circlecontainer3 {
-    margin-left: 770px;
-    margin-top: 676px;
+    margin-left: 22.2%;
+    margin-top: 35.5%;
     width: 8%;
     height: 12%;  
 }
@@ -265,14 +265,14 @@ clearfix {
 
 .video-position {
     position: relative;
-    margin-left: 560px;
-    top: 370px;
+    padding-left: 22%;
+    padding-top: 30%;
 }
 
 #themainVideo {
     position: relative;
-    margin-left: 520px;
-    margin-top: 10px;
+    margin-left: 9.4%;
+    margin-top: 164px;
     z-index: 4;
     
 }
