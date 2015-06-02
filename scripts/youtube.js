@@ -4,7 +4,7 @@ $(document).ready(function() {
         var scrollPosition = $("body").scrollTop();
         console.log(scrollPosition); 
        
-        if(scrollPosition < 4850) {
+        if(scrollPosition < 4290) {
             $("#theVideo").hide();
         } else {
            (scrollPosition)
